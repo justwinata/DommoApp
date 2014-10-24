@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dommo</string>
+    <string name="action_settings">Settings</string>
+	<string name="logInEmailHint">example@email.com</string>
+	<string name="logInPasswordHint">********</string>
+	<string name="logInRememberPassword">Remember My Password</string>
+	<string name="logInLogIn">Log In</string>
+	<string name="logInSignUp">Sign Up</string>
+	
+    
+</resources>
