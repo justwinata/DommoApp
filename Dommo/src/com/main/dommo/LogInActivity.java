@@ -1,9 +1,12 @@
 package com.main.dommo;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class LogInActivity extends ActionBarActivity {
@@ -13,8 +16,22 @@ public class LogInActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.log_in_page);
         
+        Button login = (Button) findViewById(R.id.logInLogInButton);
+		login.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View view) {
+				Intent logInIntent = new Intent(view.getContext(), PostActivity.class);
+				startActivityForResult(logInIntent, 0);
+			}
+		});
+		
+		Button signup = (Button) findViewById(R.id.logInSignUpButton);
+        signup.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent signUpIntent= new Intent(view.getContext(), SignUpActivity.class);
+                startActivityForResult(signUpIntent, 0);
+            }
+        });
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

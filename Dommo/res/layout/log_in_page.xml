@@ -18,7 +18,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:ems="12"
-        android:hint="@string/logInEmailHint" 
+        android:hint="@string/log_in_email_hint" 
         android:inputType="textEmailAddress"/>
     
     <EditText
@@ -31,7 +31,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:ems="12"
-        android:hint="@string/logInPasswordHint" 
+        android:hint="@string/log_in_password_hint" 
         android:inputType="textPassword"/>
     
     <CheckBox
@@ -42,7 +42,7 @@
 		android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:ems="10"
-        android:text="@string/logInRememberPassword" />
+        android:text="@string/log_in_remember_password" />
     
     <Button 
         android:id="@+id/logInLogInButton"
@@ -54,7 +54,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:ems="12"
-        android:text="@string/logInLogIn" />
+        android:text="@string/log_in_log_in" />
     
     <Button 
         android:id="@+id/logInSignUpButton"
@@ -66,5 +66,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:ems="12"
-        android:text="@string/logInSignUp" />
+        android:text="@string/log_in_sign_up" />
+    
+    <Button
+        android:id="@+id/logInForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:ems="8"
+        android:text="@string/log_in_forgot" />
 </RelativeLayout>
