@@ -17,5 +17,9 @@
 	<string name="sign_up_password">Password</string>
 	<string name="sign_up_password_confirm">Confirm password</string>
 	<string name="sign_up_sign_up">Sign Up</string>
+	
+	<string name="forgot_password_description">Enter the email</string>
+	<string name="forgot_password_email">Email</string>
+	<string name="forgot_password_send">Send</string>
     
 </resources>
