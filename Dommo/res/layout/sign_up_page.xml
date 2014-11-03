@@ -92,5 +92,13 @@
         android:layout_below="@id/signUpPasswordConfirm"
         android:layout_centerHorizontal="true"
         android:text="@string/sign_up_sign_up" />
+    
+    <TextView
+        android:id="@+id/signUpError"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:textColor="#000000"
+        android:layout_below="@id/signUpButton"
+        android:layout_alignParentRight="true"/>
 
 </RelativeLayout>
